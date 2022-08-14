@@ -1,0 +1,14 @@
+.cards-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.cards-wrapper>* {
+    flex-shrink: 0;
+}
+
+.cards-wrapper+* {
+    margin-top: 30px;
+}
